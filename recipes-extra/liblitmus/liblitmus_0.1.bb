@@ -31,6 +31,7 @@ inherit kernel-arch
 
 FILES_${PN}-dev += " \
 	    include/litmus.h \
+	    include/migration.h \
 "
 
 FILES_${PN}-staticdev += " \
@@ -59,4 +60,5 @@ do_install() {
 	     install -m 0644 liblitmus.a ${D}${libdir}
 	     install -d ${D}${includedir}
 	     install -m 0644 include/litmus.h ${D}${includedir}
+	     install -m 0644 include/migration.h ${D}${includedir}
 }
