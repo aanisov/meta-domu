@@ -13,7 +13,7 @@ inherit kernel-arch
 
 URL = "git://github.com/LITMUS-RT/liblitmus.git"
 BRANCH = "master"
-SRCREV = "3058f09841ba9b76eac135453fab43b7fe9501df"
+SRCREV = "31352298446e1fc1ba4dc391197aef3fd57bf080"
 
 SRC_URI = "${URL};protocol=git;branch=${BRANCH}"
 
