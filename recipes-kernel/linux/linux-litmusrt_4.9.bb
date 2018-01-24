@@ -3,7 +3,7 @@ DESCRIPTION = "Litmus-RT Linux kernel "
 require recipes-kernel/linux/linux-yocto.inc
 
 FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}/:"
-COMPATIBLE_MACHINE = "genericarmv8"
+COMPATIBLE_MACHINE = "genericarmv8-xt"
 
 RENESAS_BSP_URL = "git://github.com/LITMUS-RT/litmus-rt.git"
 BRANCH = "linux-4.9-litmus"
