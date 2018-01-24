@@ -2,9 +2,11 @@
 IMAGE_INSTALL_append = " \
     liblitmus \
     feather-trace-tools \
+    dhcp-client \
+    bash \
 "
 
-IMAGE_FEATURES += "ssh-server-dropbear"
+IMAGE_FEATURES += "ssh-server-openssh"
 
 
 TOOLCHAIN_TARGET_TASK += " liblitmus-staticdev"
